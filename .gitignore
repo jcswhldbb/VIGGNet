@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Data and checkpoints
+data/
+datasets/
+*.pth
+*.pt
+*.ckpt
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store

@@ -13,6 +13,9 @@ The experiments are conducted on four publicly available ultrasound datasets, co
 | BUSI | Breast lesion segmentation |
 | BUS-BRA | Breast lesion segmentation |
 
-## Code
+## Repository structure
 
-The model implementation and the data split files used in this paper will be released in this repository.
+- [`models/VIGGNet/VIGGNet.py`](models/VIGGNet/VIGGNet.py): VIGGNet model implementation.
+- [`models/VIGGNet/gcn_lib/`](models/VIGGNet/gcn_lib/): graph convolution operators used by the model, including k-NN graph construction, graph convolution and position embedding.
+
+The data split files used in this paper will be released in this repository.
